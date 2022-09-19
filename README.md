@@ -1,12 +1,12 @@
 # highlightradioandchecks
 Functions that highlight selected radio buttons or check boxes.
 
-Highlights caused by changes in classes called 
+Highlights are caused by changes in classes called 
 highlight and nohighlight that reflect different css class styles.
 
 Requires checkboxes and radio buttons surrounded by divs that are targeted for highlighting.
 
-HTEML example:
+HTML example:
 <div id='radioButton1Container' class='nohighlight'>
 <input type='radio' id='radioButton1' name='someName' value='someValue' onclick='highlightRadioButtons()'> RadioButtonName
 </div>
